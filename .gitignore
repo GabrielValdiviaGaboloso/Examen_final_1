@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Directorios de distribución y build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración de Jupyter
+.ipynb_checkpoints
+
+# Archivos específicos de sistemas
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs (opcional)
+.vscode/
+.idea/
