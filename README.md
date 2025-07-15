@@ -76,11 +76,10 @@
 ## Conclusión: Modelos de Clasificación
 
 1. **Accuracy KNN con GridSearchCV**: 0.921
-2. **Accuracy Logistic Regression**: 0.995
-3. **Accuracy Random Forest**: 0.994
-4. **Modelo con Hiperparámetros XGBoost**: 1.000
+2. **Accuracy Random Forest**: 0.994
+3. **Modelo con Hiperparámetros XGBoost**: 1.000
 
-El modelo con mejor predicción inicial fue **Logistic Regression**, con un accuracy de **0.995**, demostrando un rendimiento muy alto pero con un pequeño margen de mejora.
+El modelo con mejor predicción inicial fue **Accuracy Random Forest**, con un accuracy de **0.994**, demostrando un rendimiento muy alto pero con un pequeño margen de mejora.
 
 Esta mejora se logró aplicando **optimización de hiperparámetros con Optuna** al modelo **XGBoost**, alcanzando una **precisión perfecta de 1.000**.
 
