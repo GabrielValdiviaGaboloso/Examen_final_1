@@ -2,6 +2,8 @@
 
 ## Información del Dataset
 
+* Los datos se relacionan con campañas de marketing directo de una institución bancaria portuguesa. Las campañas se basaron en llamadas telefónicas
+  
 ### Diccionario de Datos
 
 * **fixed acidity**: Acidez fija en g/dm³.
@@ -67,7 +69,7 @@
 
 ---
 
-## Mapa de Correlación de la Fusión de Ambos Datasets
+## Mapa de Correlación de  Datasets
 
 ![Gráfico de correlación](assets/map_corr.png)
 
