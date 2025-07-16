@@ -1,8 +1,5 @@
 # Examen\_final\_1
 
-## Información del Dataset
-
-* Los datos se relacionan con campañas de marketing directo de una institución bancaria portuguesa. Las campañas se basaron en llamadas telefónicas
   
 ### Diccionario de Datos
 
@@ -69,7 +66,7 @@
 
 ---
 
-## Mapa de Correlación de  Datasets
+## Mapa de Correlación de la fucion de los Datasets
 
 ![Gráfico de correlación](assets/map_corr.png)
 
@@ -78,15 +75,14 @@
 ## Conclusión: Modelos de Clasificación
 
 # Conclusion modelos de classificacion 
-1. Accuracy knn con GridSearchCV = 0.903
-2. Accuracy logisc = 0.887
-3. Accuracy tree = 0.908
-4. Accuracy forest = 0.908
-5. Modelo hiperparámetros XGBOOST =  0.92
+1. Accuracy knn con GridSearchCV = 0.921
+2. Accuracy logisc = 0.995
+3. Accuracy forest = 0.994
+3. Modelo hiperparámetros XGBOOST =  1.000
 
 El modelo con mejor predicción inicialmente fue Logistic Regression, alcanzando una accuracy de 0.995, lo que indica un desempeño muy alto, pero con cierto margen para mejorar.
 
-Dicha mejora se logró aplicando la optimización de hiperparámetros mediante Optuna al modelo XGBoost, alcanzando una precisión perfecta de 0.92.
+Dicha mejora se logró aplicando la optimización de hiperparámetros mediante Optuna al modelo XGBoost, alcanzando una precisión perfecta de 1.000.
 
 
   
